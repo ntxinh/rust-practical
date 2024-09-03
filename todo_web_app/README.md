@@ -5,6 +5,7 @@
 # sudo apt install libssl-dev
 rustup update
 cargo install sqlx-cli
+# sqlx migrate add -r init
 ```
 
 # Create a new project
@@ -25,3 +26,7 @@ cargo run
 ```
 
 http://localhost:8000
+
+# References
+
+- https://github.com/wpcodevo/rust-mysql-crud-sqlx
