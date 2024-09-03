@@ -22,3 +22,5 @@ Cargo.lock
 **/target
 **/Cargo.lock
 **/*.pdb
+
+.env
